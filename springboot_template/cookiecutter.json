@@ -6,5 +6,6 @@
 	"db_name": "{{ cookiecutter.service_name | slugify(separator='') + 'db' }}",
 	"service_description": "This is a Spring Boot Microservice",
 	"entity": "MyEntity",
+	"service_port" : "",
 	"_extensions": ["cookiecutter.extensions.SlugifyExtension", "cookiecutter.extensions.RandomStringExtension"]
 }
