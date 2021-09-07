@@ -7,11 +7,10 @@ This is a tool for generating templete for spring boot microservice.
 1. python 3
    command to check python version: "py -V" (in windows)
 2. cookiecutter ( Install via pip)
-   command to install cookiecutter: "pip install cookiecutter"
-   command to check cookiecutter version : "cookiecutter -V"
+   command to install cookiecutter: "py -m pip install --user cookiecutter"
 
 ## Usage
 
-step 1: Clone this Repository into your local machine
-step 2: Open command propmt where you need to create spring boot microservice
-step 3: run this command "cookiecutter path of clone repo" ex: cookicutter D:\SpringBoot_CookieCutter\springboot_template
+* Clone this Repository into your local machine
+* Go inside SpringBoot_CookieCutter directory and Open command propmt 
+* run this file "springboot_project_generator.py"
