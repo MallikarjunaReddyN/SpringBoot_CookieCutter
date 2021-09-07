@@ -1,6 +1,6 @@
 package com.malli.{{ cookiecutter.service_package }}.service;
 
-import com.malli.{{ cookiecutter.service_package }}.service.{{ cookiecutter.entity }}Repository;
+import com.malli.{{ cookiecutter.service_package }}.repository.{{ cookiecutter.entity }}Repository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
